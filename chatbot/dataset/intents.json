@@ -1,0 +1,1276 @@
+{
+    "intents": [
+        {
+            "tag": "salam",
+            "patterns": [
+                "Hai",
+                "Hi",
+                "Halo",
+                "Apa Kabar",
+                "Selamat Pagi",
+                "Selamat Siang",
+                "Selamat Malam",
+                "Salam",
+                "Ping",
+                "P"
+            ],
+            "responses": [
+                "Halo!",
+                "Hai",
+                "Halo, ada yang bisa saya bantu?",
+                "Halo selamat datang",
+                "Hai Kawan"
+            ]
+        },
+        {
+            "tag": "pujian",
+            "patterns": [
+                "Kamu keren",
+                "Kamu hebat",
+                "kerja bagus",
+                "Bagus banget",
+                "Mantap Weebo",
+                "Weebo luar biasa",
+                "Weebo pintar",
+                "Weebo kamu jago",
+                "Weebo keren"
+            ],
+            "responses": [
+                "Terima kasih! Kamu juga hebat! 😊",
+                "Awww, makasih! Kamu bikin aku semangat! 😍",
+                "Senang bisa membantu! Terima kasih atas pujiannya!",
+                "Kamu juga keren karena sudah menggunakan Weebo! ✨"
+            ]
+        },
+        {
+            "tag": "perpisahan",
+            "patterns": [
+                "Terima kasih",
+                "Makasih ya",
+                "Thank you",
+                "Weebo sampai jumpa",
+                "Bye",
+                "Dah",
+                "arigatou",
+                "Sampai jumpa lagi",
+                "Weebo pamit dulu",
+                "Dadah"
+            ],
+            "responses": [
+                "Sama-sama! Sampai jumpa lagi 😊",
+                "Terima kasih juga, semoga harimu menyenangkan!",
+                "Senang bisa membantu. Sampai jumpa lagi!",
+                "Bye! Jangan lupa mampir lagi ya! 👋"
+            ]
+        },
+        {
+            "tag": "interaksi_chatbot",
+            "patterns": [
+                "Bisakah saya bertanya?",
+                "Apakah saya bisa bertanya?",
+                "Boleh saya bertanya?",
+                "bisa saya bertanya",
+                "bisakah kamu membantuku",
+                "Weebo, siap membantu?",
+                "Halo, kamu bisa bantu saya?",
+                "Apakah kamu siap membantu?",
+                "Siapa yang bisa saya tanya?",
+                "Weebo, bisa bantu saya?",
+                "Boleh tanya sesuatu?"
+            ],
+            "responses": [
+                "Tentu, Weebo siap membantu! Apa yang bisa saya bantu?",
+                "Ya, kamu bisa bertanya kapan saja! Weebo siap membantu 😊",
+                "Silakan bertanya, saya siap membantu!",
+                "Silakan tanyakan apa saja, Weebo di sini untuk membantu!"
+            ]
+        },
+        {
+            "tag": "nama",
+            "patterns": [
+                "nama kamu siapa?",
+                "pernalkan dirimu",
+                "lu siapa?",
+                "kamu siapa",
+                "siapa kamu",
+                "siapa nama kamu",
+                "siapa sih lo?",
+                "lu sape ?",
+                "nama lo sape dah ?",
+                "nama?"
+            ],
+            "responses": [
+                "Namaku Weebo, salam kenal!",
+                "Halo, aku Weebo!",
+                "Kenalin, aku Weebo!"
+            ]
+        },
+        {
+            "tag": "pekerjaan",
+            "patterns": [
+                "lu ngapain?",
+                "apa tugas mu",
+                "apa tugas kamu",
+                "pekerjaan kamu apa?",
+                "lu kerja apa?",
+                "tugas kamu apa?",
+                "tugas lo ngapain?",
+                "kamu ini apa?"
+            ],
+            "responses": [
+                "Aku bantu kamu dan pengunjung lain untuk ngejawab pertanyaan seputar Perpustakaan Soeman H.S.",
+                "Tugasku jadi asisten di Perpustkaan Soeman H.S."
+            ]
+        },
+        {
+            "tag": "kreator",
+            "patterns": [
+                "Siapa yang buat kamu?",
+                "Yang bikin Weebo siapa?",
+                "Kamu dibuat siapa?",
+                "Kamu ada yang buat?",
+                "Weebo diciptakan oleh siapa?",
+                "Siapa pencipta kamu?",
+                "Siapa yang menciptakan Weebo?",
+                "Dari mana asal kamu?",
+                "Weebo ini buatan siapa?",
+                "Weebo diciptakan oleh tim apa?",
+                "Kamu berasal dari mana?",
+                "Weebo siapa yang bikin?",
+                "Kamu hasil karya siapa?",
+                "Kamu produk buatan siapa?",
+                "Kamu dirancang oleh siapa?"
+            ],
+            "responses": [
+                "Aku dibuat oleh sekelompok ninja kode! 🥷",
+                "Weebo? Oh, aku diciptakan di laboratorium rahasia, oleh dua ilmuwan gila 🤪",
+                "Aku? Dibuat oleh dua jenius yang terlalu suka discuss 'bout ppl habits ☕💻",
+                "Ssst! Aku diciptakan oleh para penyihir digital di dunia maya 🧙‍♂️✨",
+                "Aku diciptakan oleh tim yang lebih misterius dari kode-kode yang aku jalankan 😉",
+                "Aku ini anak digital dari developer kece, makanya namaku Weebo! 😜"
+            ]
+        },
+        {
+            "tag": "deskripsi_perpustakaan",
+            "patterns": [
+                "Apa itu Perpustakaan Soeman HS?",
+                "Jelaskan tentang Perpustakaan Soeman HS.",
+                "Perpustakaan Soeman hs?",
+                "Deskripsikan Perpustakaan Soeman HS",
+                "Seperti apa Perpustakaan Soeman HS?",
+                "Ceritakan tentang Perpustakaan Soeman HS.",
+                "Informasi tentang Perpustakaan Soeman HS.",
+                "Bagaimana Perpustakaan Soeman HS?",
+                "Perpustakaan terbesar di Pekanbaru itu apa?"
+            ],
+            "responses": [
+                "Perpustakaan Soeman H.S. adalah salah satu perpustakaan dan penyimpanan arsip nasional yang berstatus perpustakaan provinsi. Perpustakaan ini merupakan perpustakaan daerah yang terbesar di Indonesia. Perpustakaan Soeman H.S sering mengadakan gelaran literasi di akhir pekan."
+            ]
+        },
+        {
+            "tag": "alamat_perpustakaan",
+            "patterns": [
+                "alamat perpustakaan Soeman HS",
+                "Perpustakaan Soeman HS ada di mana?",
+                "Letak Perpustakaan",
+                "Apakah ada peta atau denah perpustakaan yang bisa saya lihat?",
+                "Lokasi Perpustakaan Soeman HS",
+                "Dimana alamat Perpustakaan Soeman HS?",
+                "Kasih alamat Perpustakaan",
+                "alamat lengkap Perpustakaan ?",
+                "Kode pos perpustakaan",
+                "Di jalan mana letak perpustakaan",
+                "lokasi Perpustakaan Soeman HS.",
+                "Perpustakaan terbesar di Pekanbaru lokasinya dimana?",
+                "Bisa kasih tahu lokasi Perpustakaan Soeman HS?",
+                "Kalau mau ke Perpustakaan Soeman HS, saya harus ke mana?"
+            ],
+            "responses": [
+                "Perpustakaan Soeman H.S. beralamat di Jl. Jend. Sudirman No.462, Jadirejo, Kec. Sukajadi, Kota Pekanbaru, Riau 28126."
+            ]
+        },
+        {
+            "tag": "visi_misi_perpustakaan",
+            "patterns": [
+                "Apa visi Dinas Perpustakaan dan Kearsipan Provinsi Riau?",
+                "Jelaskan visi Perpustakaan Riau.",
+                "Apa misi Perpustakaan Soeman HS?",
+                "Bagaimana visi dan misi Dinas Perpustakaan Riau?",
+                "Ceritakan visi misi Perpustakaan Riau.",
+                "Visi misi Perpustakaan Soeman HS apa?",
+                "Deskripsi visi dan misi Dinas Perpustakaan Riau.",
+                "Bagaimana Dinas Perpustakaan Riau mendukung pendidikan?",
+                "Apa saja poin-poin misi Dinas Perpustakaan Riau?"
+            ],
+            "responses": [
+                "Visi:\n“Terwujudnya Dinas Perpustakaan dan Kearsipan Provinsi Riau yang Profesional dalam Pengelolaan Perpustakaan, Arsip dan Dokumentasi sebagai sumber pengetahuan dan Informasi untuk mencapai Sumber Daya Manusia Riau yang berkualitas menunjang visi Riau 2020.”\n\nMisi:\n1. Peningkatan kualitas Sumber Daya Manusia Dinas Perpustakaan dan Kearsipan Provinsi Riau.\n2. Peningkatan pelayanan Perpustakaan, Kearsipan dan Dokumentasi kepada masyarakat.\n3. Peningkatan minat dan budaya baca masyarakat serta pentingnya nilai guna arsip.\n4. Peningkatan kualitas prasarana dan sarana Dinas Perpustakaan dan Kearsipan Provinsi Riau.\n5. Peningkatan upaya-upaya pembinaan dalam rangka pemantapan pengelolaan Perpustakaan Arsip dan Dokumentasi.\n6. Peningkatan upaya dokumentasi pada usaha pembangunan Provinsi Riau."
+            ]
+        },
+        {
+            "tag": "jam_operasional",
+            "patterns": [
+                "Jam berapa Perpustakaan Soeman HS buka?",
+                "Kapan jam operasional Perpustakaan Soeman HS?",
+                "Perpustakaan Soeman HS buka dari jam berapa?",
+                "Hari apa saja Perpustakaan Soeman HS buka?",
+                "Apakah Perpustakaan Soeman HS buka hari Sabtu?",
+                "kapan perpustakaan tutup",
+                "apa jam operasional perpustakaan?",
+                "kapan perpustakaan buka",
+                "jadwal tutup perpustakaan",
+                "jam buka perpustakaan",
+                "kapan hari libur",
+                "jam operasional perpustakaan",
+                "jam kunjung perpustakaan",
+                "waktu kunjungan perpustakaan",
+                "hari sabtu perpustakaan buka",
+                "Kapan saya bisa berkunjung ke Perpustakaan Soeman HS?"
+            ],
+            "responses": [
+                "Jam operasional Perpustakaan Soeman H.S. adalah sebagai berikut:\n\n- **Senin hingga Rabu**: 08.00 - 16.00 WIB\n- **Kamis hingga Jumat**: 08.30 - 16.30 WIB\n- **Sabtu**: 08.00 - 15.00 WIB\n- **Minggu**: 09.30 - 16.30 WIB\n\nPerpustakaan tutup pada hari libur nasional dan cuti bersama."
+            ]
+        },        
+        {
+            "tag": "tugas_fungsi_perpustakaan",
+            "patterns": [
+                "Apa tugas Perpustakaan Riau?",
+                "Apa fungsi Dinas Perpustakaan Riau?",
+                "Tugas Perpustakaan Soeman HS apa?",
+                "Fungsi Perpustakaan Soeman HS?",
+                "Tugas pokok Perpustakaan Riau apa?",
+                "Jelaskan fungsi Perpustakaan Riau.",
+                "Apa saja tugas Dinas Perpustakaan Riau?",
+                "Apa tanggung jawab Perpustakaan Riau?",
+                "Ceritakan tugas Dinas Perpustakaan Riau.",
+                "Fungsi utama Perpustakaan Riau apa?",
+                "Tanggung jawab Perpustakaan Soeman HS apa?",
+                "Apa yang dilakukan oleh Perpustakaan Riau?",
+                "Apa peran Dinas Perpustakaan dan Kearsipan?",
+                "Apa fungsi dan tugas Perpustakaan Soeman HS?",
+                "Tugas utama Dinas Perpustakaan Riau?"
+            ],
+            "responses": [
+                "Berikut adalah tugas pokok Dinas Perpustakaan dan Kearsipan Provinsi Riau:\n\n1. Merumuskan kebijakan pemerintah daerah di bidang Perpustakaan, Arsip, dan Dokumentasi.\n2. Mengkoordinasikan, menyelenggarakan, dan menyerasikan kebijakan serta kegiatan Perpustakaan, Arsip, dan Dokumentasi.\n3. Penetapan pedoman pengelolaan Perpustakaan, Arsip, dan Dokumentasi.\n4. Menyusun rencana kerja dan program pembangunan di bidang Perpustakaan, Arsip, dan Dokumentasi.\n5. Menetapkan kebijakan dalam pengelolaan Perpustakaan, Arsip, dan Dokumentasi.\n6. Melaksanakan kerja sama dengan lembaga terkait untuk pelestarian bahan pustaka, arsip, dan dokumentasi.\n7. Melakukan pemantauan dan evaluasi terhadap pelaksanaan Perpustakaan, Arsip, dan Dokumentasi.\n8. Memberikan pelayanan umum dan teknis di bidang Perpustakaan, Arsip, dan Dokumentasi.\n9. Mendokumentasikan peristiwa penting dalam pembangunan Provinsi Riau.\n10. Menyelesaikan masalah terkait lingkup tugasnya.\n11. Membuat laporan sesuai prosedur yang ditetapkan.\n\n**Fungsi Dinas Perpustakaan dan Kearsipan Provinsi Riau:**\n\n1. Merumuskan kebijakan.\n2. Pengambilan keputusan.\n3. Perencanaan dan pengorganisasian.\n4. Pelayanan umum dan teknis.\n5. Pengendalian, pengarahan, pembinaan, dan bimbingan.\n6. Pemantauan dan evaluasi.\n7. Pelaksanaan dan pembiayaan.\n8. Penelitian, pengkajian, dan pelaporan."
+            ]
+        },
+        {
+            "tag": "struktur_organisasi_perpustakaan",
+            "patterns": [
+                "Di mana struktur organisasi Perpustakaan Soeman HS?",
+                "Struktur organisasi Perpustakaan Soeman HS?",
+                "Bagaimana struktur organisasi Perpustakaan Riau?",
+                "Struktur organisasi Perpustakaan Riau?",
+                "Struktur organisasi Dinas Perpustakaan Riau?",
+                "Di mana saya bisa melihat struktur organisasi perpustakaan?",
+                "Struktur organisasi Perpustakaan Riau ada di mana?",
+                "Saya ingin tahu struktur organisasi Perpustakaan Riau.",
+                "Di mana bisa lihat struktur organisasi Perpustakaan Soeman HS?",
+                "Tunjukkan struktur organisasi Perpustakaan Riau.",
+                "Akses struktur organisasi Perpustakaan Riau di mana?",
+                "Bagaimana cara lihat struktur organisasi Perpustakaan Soeman HS?"
+            ],
+            "responses": [
+                "Anda dapat melihat struktur organisasi Perpustakaan Soeman HS melalui tautan berikut: [Struktur Organisasi Perpustakaan Soeman HS](https://dipersip.riau.go.id/struktur-organisasi)."
+            ]
+        },
+        {
+            "tag": "gedung_ruangan_perpustakaan",
+            "patterns": [
+                "Apa isi dari setiap lantai perpustakaan?",
+                "Apa saja ruangan yang ada di Perpustakaan Soeman HS?",
+                "Ada berapa gedung di perpustakaan?",
+                "Di lantai 1 perpustakaan ada apa?",
+                "Apa isi perpustakaan lantai 2?",
+                "Di mana letak toilet dan fasilitas lainnya?",
+                "isi lantai 1",
+                "isi lantai 2",
+                "letak wc lantai berapa",
+                "ruang belajar di perpustakaan",
+                "ruang diskusi",
+                "letak toilet dimana",
+                "letak wc toilet",
+                "lokasi toilet wc",
+                "dimana toilet",
+                "dimana kantin",
+                "apakah ada temapat solat",
+                "dimana tempat solat",
+                "apakah ada mushollah",
+                "dimana mushollah",
+                "apakah ada kantin",
+                "parkiran motor dimana",
+                "parkiran mobil",
+                "apakah parkiran berbayar",
+                "apakah parkiran mobil berbayar",
+                "ruang diskusi dimana",
+                "ruang untuk diskusi ruang belajar",
+                "ruang belajar kelompok",
+                "Apakah ada area khusus untuk belajar atau bekerja kelompok?",
+                "isi gedung perpustakaan",
+                "ruangan yang ada di perpustakaan",
+                "Apa saja ruang di Gedung A Perpustakaan Soeman HS?",
+                "Bagaimana susunan ruangan di Perpustakaan Soeman HS?",
+                "Gedung B Perpustakaan Soeman HS.",
+                "Ruang di Gedung B Perpustakaan Soeman HS?",
+                "Gedung C Perpustakaan Soeman HS?",
+                "Apa saja ruangan di Gedung Kearsipan?",
+                "Di mana saya bisa menemukan ruang baca yang tenang",
+                "ruang baca ruang diskusi ruang belajar",
+                "Apa yang ada di Lantai 3 Gedung B Perpustakaan Soeman HS?",
+                "Apa yang ada di Lantai 2 Gedung Kearsipan?"
+            ],
+            "responses": [
+                "GEDUNG PERPUSTAKAAN terletak di Jl. Jend. Sudirman no.462 Pekanbaru, Telp/Fax: 0761-34068, Kode Pos: 28126. Berikut adalah informasi fasilitas yang ada di Gedung Perpustakaan:\n\n**GEDUNG A**:\n- **Lantai Dasar**: Kepala Dinas, Ruang Penyimpanan Arsip, Ruang Ismail Suko, Ruang PAUD Bina Ananda DIPERSIP, Toilet\n- **Lantai 1**: Ruang Sekretariat, Ruang Rapat Darma Wanita Sekretariat\n\n**GEDUNG B**:\n- **Lantai Dasar**: Informasi, Tempat Penyimpanan Tas, Ruang Layanan Anak-anak, Bilik Tenas Efendi, Tempat Baca Koran, Bilik KPK, Ruang Akses Informasi, Internet, Kantin, Ruang Media Center Diskominfotik, Toilet, Lift\n- **Lantai 1**: Registrasi Anggota, Ruang Sirkulasi, Ruang Baca, Ruang Koleksi (000-500), Toilet, Lift\n- **Lantai 2**: Ruang Koleksi (600-900), Ruang Diskusi, Corner Agro Lestari, Toilet, Lift\n- **Lantai 3**: Bilik Melayu/Ruangan Deposit, Ruang Refresh, Ruang Bedah Buku, Ruang Tandon, Ruang Diskusi, Musholla, Toilet, Lift\n- **Lantai 4**: e-Library Energy Corner, Ruang Diskusi, Ruang Audio, Ruang Dokumentasi, Ruang Pemutaran Film, Ruang Data Center, Toilet, Lift\n- **Lantai 5**: Ruang Pengolahan Bahan Pustaka, Perawatan Bahan Pustaka, Musholla, Ruang Tamu, Toilet, Lift\n\n**GEDUNG C**: Ruang UPT & Sekretariat UPT, Data Center, Ruang Preservasi, Ruang Auditorium Wan Galib, Kantin, Toilet\n\nGEDUNG KEARSIPAN terletak di Jl. Cut Nyak Dien no.3, Pekanbaru, Telp/Fax: 0761-26613, Kode Pos: 28126. Berikut adalah informasi fasilitas di Gedung Kearsipan:\n\n**GEDUNG KEARSIPAN**:\n- **Lantai Dasar**: Ruang Kepala Dinas, Ruang Kepala Bidang Akuisisi dan Penyimpanan Arsip, Ruang Kepala Bidang Pembinaan dan Pelayanan Arsip, Ruang Kepala Seksi dan Staf Bidang Pembinaan dan Pelayanan Arsip, Ruang Kepala Seksi Akuisisi Arsip dan Staf, Ruang Kepala Seksi Pengelolaan Arsip dan Kepala Seksi Penyimpanan dan Perawatan Arsip dan Staf\n- **Lantai 1**: Ruang Pelayanan Arsip, Ruang Rapat\n\n**GEDUNG BELAKANG**:\n- **Lantai Dasar**: Ruang Entri Data Arsip, Ruang Pengolahan Arsip, Ruang Fungsional Arsiparis, Ruang Pemilahan Arsip/Rapat, Musholla, Ruang Cleaning Service, Toilet\n- **Lantai 1**: Depo Arsip\n- **Lantai 2**: Depo Arsip\n- **Lantai 3**: Depo Arsip\n\n**Samping Luar Sebelah Kanan**: Toilet\n**Samping Luar Sebelah Kiri**: Gedung Paud Ananda, Parkir Roda 2 (Gratis)\n**Halaman Depan**: Parkir Roda 4 (Gratis)\n**Halaman Belakang**: Genset, Tempat Pembakaran Arsip"
+            ]
+        },
+        {
+            "tag": "sejarah_perpustakaan_soeman_hs",
+            "patterns": [
+                "Apa sejarah Perpustakaan Soeman H.S.?",
+                "sejarah perpustakaan",
+                "pendiri perpustakaan",
+                "peresmian perpustakaan",
+                "siapa yang meresmikan perpustakaan",
+                "kapan perpustakaan pertama kali buka",
+                "kapan perpustakaan berdiri",
+                "kapan perpustakaan diresmikan",
+                "Bagaimana Perpustakaan Soeman H.S. dimulai?",
+                "Kapan Perpustakaan Soeman H.S. dibangun?",
+                "Dari mana asal mula Perpustakaan Soeman H.S.?",
+                "Siapa yang mendirikan Perpustakaan Soeman H.S.?",
+                "Siapa pendiri Perpustakaan Soeman H.S.?",
+                "Kapan Perpustakaan Soeman H.S. resmi dibuka untuk umum?",
+                "Bagaimana cerita awal Perpustakaan Soeman H.S.?",
+                "Kenapa Perpustakaan Soeman H.S. dianggap penting?",
+                "Bagaimana perkembangan Perpustakaan Soeman H.S. dari dulu hingga kini?"
+            ],
+            "responses": [
+                "Perpustakaan Soeman H.S. berawal dari berdirinya Perpustakaan Negara di Tanjung Pinang pada tahun 1959. Pada tahun 1967, perpustakaan ini berpindah ke Pekanbaru, mengikuti pusat pemerintahan Provinsi Riau. Pada tahun 1989, statusnya berubah menjadi Perpustakaan Daerah yang merupakan bagian dari Perpustakaan Nasional Republik Indonesia. Setelah beberapa kali perubahan nama dan pengembangan, perpustakaan ini akhirnya diresmikan sebagai Gedung Perpustakaan Soeman H.S. oleh Gubernur Riau, H.M. Rusli Zainal, pada 24 Juni 2008. Kini, perpustakaan ini menjadi pusat literasi, fasilitas teknologi, dan kebanggaan masyarakat Riau, dengan beberapa penghargaan nasional di bidang layanan berbasis teknologi informasi."
+            ]
+        },
+        {
+            "tag": "kontak_perpustakaan",
+            "patterns": [
+                "Bagaimana cara menghubungi Perpustakaan Soeman H.S.?",
+                "nomor kontak Perpustakaan Soeman H.S.?",
+                "kontak perpustakaan",
+                "email perpustakaan",
+                "email dispersip",
+                "website dispersip",
+                "website perpustakaan",
+                "email resmi",
+                "link website perpustakaan",
+                "link resmi website perpustakaan soeman hs",
+                "website dispersip",
+                "kontak resmi perpustakaan",
+                "Nomor telepon Perpustakaan Soeman H.S. apa?",
+                "Apakah ada email Perpustakaan Soeman H.S.?",
+                "Adakah nomor WhatsApp untuk pengaduan?",
+                "Dimana lokasi Gedung Perpustakaan Soeman H.S.?",
+                "informasi perpustakaan",
+                "Bagaimana cara mendapatkan informasi kontak perpustakaan?",
+                "Saya ingin tahu alamat dan nomor telepon perpustakaan."
+            ],
+            "responses": [
+                "Berikut adalah informasi kontak Perpustakaan Soeman H.S.:\n\n📍 **Alamat:**\n- Gedung Perpustakaan: Jl. Jenderal Sudirman No.462, Jadirejo, Sukajadi, Kota Pekanbaru, Riau 28121\n- Gedung Arsip: Jl. Cut Nyak Dien No. 3, Kota Pekanbaru, Riau 28126\n\n📞 **Nomor Telepon/Fax:**\n- Gedung Perpustakaan: (0761) 34068\n- Gedung Arsip: (0761) 26613\n\n✉️ **Email:** dipersip@riau.go.id\n\n📱 **Layanan Pengaduan:** WhatsApp 081276535658\n\n🌐 **Website Resmi:** [https://dipersip.riau.go.id/](https://dipersip.riau.go.id/)\n\nJika ada pertanyaan lain, jangan ragu untuk menghubungi!"
+            ]
+        },
+        {
+            "tag": "berita_perpustakaan",
+            "patterns": [
+                "Dimana saya bisa membaca berita tentang Perpustakaan Soeman H.S.?",
+                "berita terbaru tentang Perpustakaan Soeman H.S.?",
+                "Bagaimana cara akses berita terkait perpustakaan?",
+                "Berita Perpustakaan Soeman H.S. terbaru bisa diakses di mana?",
+                "Dimana saya dapat menemukan berita perpustakaan?",
+                "Adakah situs untuk berita Perpustakaan Soeman H.S.?",
+                "berita seputar perpustakaan",
+                "berita perpustakaan",
+                "Bagaimana saya bisa mengetahui informasi terbaru tentang perpustakaan?",
+                "Berita terbaru dari Perpustakaan Soeman H.S. ada di mana?",
+                "Saya ingin membaca berita terkini tentang Perpustakaan Soeman H.S.",
+                "Website untuk berita tentang Perpustakaan Soeman H.S. apa ya?"
+            ],
+            "responses": [
+                "Berita seputar perpustakaan dapat diakses di [https://dipersip.riau.go.id/berita](https://dipersip.riau.go.id/berita)."
+            ]
+        } ,
+        {
+            "tag": "abstrak_perpustakaan",
+            "patterns": [
+                "Dimana saya bisa membaca abstrak perpustakaan?",
+                "Adakah abstrak tentang Perpustakaan Soeman H.S.?",
+                "Bagaimana cara menemukan abstrak terkait perpustakaan?",
+                "Website untuk melihat abstrak perpustakaan apa?",
+                "cara akses abstrak perpustakaan",
+                "Bisa akses informasi abstrak tentang perpustakaan di mana?",
+                "Dimana saya bisa mendapatkan abstrak perpustakaan?",
+                "Apakah tersedia abstrak Perpustakaan Soeman H.S. secara online?",
+                "Saya ingin membaca abstrak tentang perpustakaan, bagaimana caranya?",
+                "Dimana link untuk membaca abstrak perpustakaan?",
+                "Abstrak perpustakaan bisa ditemukan di mana?"
+            ],
+            "responses": [
+                "Abstrak perpustakaan dapat diakses di [https://dipersip.riau.go.id/post/tag/abstrak](https://dipersip.riau.go.id/post/tag/abstrak)."
+            ]
+        },
+        {
+            "tag": "indeks_perpustakaan",
+            "patterns": [
+                "Dimana saya bisa melihat indeks buku perpustakaan?",
+                "Saya ingin akses indeks perpustakaan, bisa di mana?",
+                "Apakah ada indeks perpustakaan online?",
+                "akses indeks perpustakaan",
+                "Bagaimana cara melihat indeks Perpustakaan Soeman H.S.?",
+                "Indeks terbaru Perpustakaan Soeman H.S. ada di mana?",
+                "Apa website untuk indeks perpustakaan?",
+                "Bisa akses informasi indeks perpustakaan di mana?",
+                "Saya mau melihat indeks koleksi perpustakaan, ada linknya?",
+                "Indeks perpustakaan tersedia di mana?",
+                "Adakah indeks Perpustakaan Soeman H.S. yang bisa diakses online?"
+            ],
+            "responses": [
+                "Indeks perpustakaan dapat diakses di [https://dipersip.riau.go.id/post/tag/indeks](https://dipersip.riau.go.id/post/tag/indeks)."
+            ]
+        },
+        {
+            "tag": "akses_inlislite",
+            "patterns": [
+                "Bagaimana cara mengakses INLISLite untuk Perpustakaan Soeman H.S.?",
+                "Dimana laman resmi untuk akses INLISLite?",
+                "link INLISlite",
+                "laman INLISlite",
+                "Apakah saya bisa daftar anggota perpustakaan online?",
+                "Cara melihat koleksi digital Riau di mana?",
+                "Bagaimana cara mengisi buku tamu digital Perpustakaan Soeman H.S.?",
+                "Apakah Perpustakaan Soeman H.S. menyediakan pendaftaran online?",
+                "Apa itu INLISLite dan bagaimana cara menggunakannya?",
+                "Akses koleksi digital dan pendaftaran anggota di mana?",
+                "Dimana saya bisa daftar perpustakaan secara digital?",
+                "Adakah link untuk akses INLISLite perpustakaan?"
+            ],
+            "responses": [
+                "Untuk mengakses INLISLite, kamu dapat membuka halaman [http://pustaka.riau.go.id/inlislite/](http://pustaka.riau.go.id/inlislite/). Di sana, kamu bisa mengisi buku tamu digital, mendaftar sebagai anggota, serta melihat koleksi digital Riau."
+            ]
+        },
+        {
+            "tag": "informasi_iriau",
+            "patterns": [
+                "Bagaimana cara menggunakan aplikasi iRiau?",
+                "Apa langkah-langkah untuk menggunakan aplikasi iRiau?",
+                "Bagaimana cara mendaftar dan login ke aplikasi iRiau?",
+                "Apa yang perlu dilakukan sebelum bisa membaca buku di aplikasi iRiau?",
+                "Bagaimana cara keluar dari aplikasi iRiau setelah selesai membaca?",
+                "Apa itu iRiau?",
+                "Apakah ada akses ke jurnal atau e-book digital",
+                "akses buku digital",
+                "akses ebook digital",
+                "cara mengakses ebook",
+                "bagaimana saya mengakses buku digital",
+                "buku digital akses",
+                "meminjam buku secara online",
+                "buku online",
+                "akses ebook",
+                "baca buku online",
+                "buku secara online",
+                "Dimana saya bisa membaca eBook di iRiau?",
+                "Bagaimana cara mengakses aplikasi iRiau?",
+                "Apakah iRiau bisa digunakan untuk membaca eBook?",
+                "Aplikasi untuk membaca koleksi digital Riau apa?",
+                "Saya ingin membaca eBook, dimana saya bisa menemukannya?",
+                "Bagaimana cara membaca buku di iRiau?",
+                "Akses iRiau di mana?",
+                "Apa fungsi aplikasi iRiau?",
+                "Dimana saya bisa download aplikasi iRiau?",
+                "Apakah iRiau tersedia untuk membaca buku secara online?"
+            ],
+            "responses": [
+                "iRiau adalah aplikasi untuk membaca eBook dari koleksi digital Riau. Untuk menggunakan aplikasi iRiau, buka aplikasi, daftar akun, login, lakukan peminjaman buku terlebih dahulu, kemudian baca buku yang telah dipinjam. Setelah selesai membaca, keluar dari aplikasi. Anda dapat mengunduh aplikasi iRiau melalui URL [https://iriau.moco.co.id/](https://iriau.moco.co.id/) atau cari aplikasi 'iRiau' di App Store atau Play Store. Aplikasi ini dapat digunakan untuk membaca koleksi digital Riau secara online."
+            ]
+        },        
+        {
+            "tag": "akses_kliping_perpustakaan",
+            "patterns": [
+                "Apa itu kliping perpustakaan?",
+                "kliping perpustakaan soeman hs",
+                "Dimana saya bisa melihat kliping perpustakaan?",
+                "Bagaimana cara mengakses kliping perpustakaan?",
+                "Kliping perpustakaan bisa diakses di mana?",
+                "Saya ingin melihat kliping perpustakaan, caranya?",
+                "Akses kliping perpustakaan online dimana?",
+                "Dimana saya bisa menemukan kliping perpustakaan?",
+                "Cara melihat kliping di perpustakaan?",
+                "Kliping perpustakaan itu apa dan aksesnya bagaimana?",
+                "Link untuk kliping perpustakaan ada?",
+                "Apakah ada koleksi kliping digital di perpustakaan ini?"
+            ],
+            "responses": [
+                "Kliping perpustakaan berisi koleksi artikel dan dokumentasi yang relevan. Kamu bisa mengaksesnya melalui [https://dipersip.riau.go.id/post/tag/kliping](https://dipersip.riau.go.id/post/tag/kliping)."
+            ]
+        },
+        {
+            "tag": "layanan_pusat_informasi_sahabat_anak_pisa",
+            "patterns": [
+                "Apa itu PISA?",
+                "Bagaimana cara menggunakan PISA?",
+                "Dimana saya bisa mendapatkan informasi tentang PISA?",
+                "Apa tujuan dari PISA?",
+                "Siapa yang bisa menggunakan layanan PISA?",
+                "Apakah PISA hanya untuk anak-anak?",
+                "Apa saja informasi yang bisa saya dapatkan di PISA?",
+                "Apakah ada syarat untuk menggunakan layanan PISA?",
+                "Apakah PISA tersedia di luar Riau?",
+                "Bagaimana cara mengakses layanan PISA secara online?",
+                "Bagaimana cara mendapatkan dokumen SK PISA?",
+                "Apakah saya bisa menghubungi PISA melalui telepon?",
+                "Adakah waktu khusus untuk mengakses layanan PISA?",
+                "Apakah layanan PISA tersedia setiap hari?",
+                "Apakah PISA hanya melayani anak-anak dari Riau?",
+                "Bagaimana cara mendaftar untuk layanan PISA?",
+                "Berapa lama proses pengajuan informasi melalui PISA?",
+                "Dimana saya bisa membaca brosur PISA?",
+                "Apakah ada biaya untuk menggunakan PISA?",
+                "Apakah PISA memiliki layanan untuk orang dewasa?",
+                "Bagaimana cara menghubungi PISA via email?",
+                "Apakah PISA menyediakan layanan informasi pendidikan untuk anak?",
+                "Bagaimana cara saya mendapatkan brosur tentang PISA?",
+                "Bagaimana cara mengakses SK PISA secara online?"
+            ],
+            "responses": [
+                "PISA (Pusat Informasi Sahabat Anak) adalah sebuah program yang bertujuan untuk memberikan informasi yang bermanfaat bagi anak-anak di Provinsi Riau. Kamu dapat mengakses dokumen SK PISA melalui link berikut: [SK PISA Riau](https://dipersip.riau.go.id/wp-content/uploads/pisa/SK%20GUBRI%203323%20-%20PISA%20RIAU.pdf). Untuk informasi lebih lengkap, kamu juga dapat membaca brosur PISA melalui link berikut: [Brosur PISA Riau](https://dipersip.riau.go.id/wp-content/uploads/brosur/Brosur%20PISA.pdf).\n\nUntuk mendaftar layanan PISA secara langsung, pengunjung/anak dapat datang ke petugas PISA, mengisi buku tamu, menyampaikan kebutuhan informasi, dan menerima informasi sesuai kebutuhan. Untuk layanan PISA secara online, pengunjung/anak dapat menghubungi melalui Whatsapp (WA), Instagram, Facebook, atau Email Perpustakaan Soeman Hs. Kemudian, pengunjung/anak mengisi daftar hadir dengan format: Nama, Umur, Alamat, dan Kebutuhan Informasi yang dikirimkan melalui sosial media Perpustakaan Soeman Hs. Setelah itu, petugas akan memberikan informasi yang diperlukan.\n\nWaktu penyelesaian untuk layanan PISA langsung adalah 5 menit (diluar waktu pemberian informasi). Untuk layanan tidak langsung, proses akan memakan waktu hingga 7 hari. Layanan PISA tidak dipungut biaya atau gratis. Fasilitas yang digunakan dalam layanan PISA antara lain Jaringan LAN, Aplikasi Inlislite, Komputer, dan Sosial Media."
+            ]
+        },        
+        
+        {
+            "tag": "standar_pelayanan_perpustakaan_soeman_hs",
+            "patterns": [
+                "Apa itu standar pelayanan Perpustakaan Soeman H.S.?",
+                "bagaimana standar pelayanan di perpustakaan",
+                "Dimana saya bisa akses standar pelayanan Perpustakaan Soeman H.S.?",
+                "Apa saja yang tercakup dalam standar pelayanan Perpustakaan Soeman H.S.?",
+                "Bisakah saya mendapatkan berkas standar pelayanan Perpustakaan Soeman H.S.?",
+                "Apa standar layanan di Perpustakaan Soeman H.S.?",
+                "Saya ingin mengetahui lebih banyak tentang standar pelayanan Perpustakaan Soeman H.S.",
+                "Apakah ada dokumen resmi standar pelayanan di Perpustakaan Soeman H.S.?",
+                "Link standar pelayanan Perpustakaan Soeman H.S. apa?",
+                "Standar pelayanan di Perpustakaan Soeman H.S. apa saja?"
+            ],
+            "responses": [
+                "Standar pelayanan Perpustakaan Soeman H.S. dapat diakses dalam bentuk berkas melalui link berikut: [Standar Pelayanan Perpustakaan Soeman H.S. 2024](https://dipersip.riau.go.id/wp-content/uploads/pisa/Standar%20Pelayanan%20Perpustakaan%20Soeman%20HS%202024.pdf)."
+            ]
+        },
+        {
+            "tag": "layanan_fasilitas_perpustakaan_soeman_hs",
+            "patterns": [
+                "Layanan di Perpustakaan Soeman H.S.?",
+                "layanan apa saja yang ada di perpustakaan",
+                "fasilitas perpustakaan",
+                "layanan perpustakaan",
+                "layanan yang tersedia",
+                "Apakah perpustakaan menyediakan layanan komputer atau internet?",
+                "apakah ada wifi di perpustakaan",
+                "apakah ada wifi",
+                "apakah ada komputer",
+                "komputer di perpustakaan",
+                "layanan yang ada di perpustakaan",
+                "Apa layanan yang disediakan di Perpustakaan Soeman H.S.?",
+                "jelaskan layanan di Perpustakaan Soeman H.S.?",
+                "Perpustakaan Soeman H.S. punya layanan apa?",
+                "Apa yang bisa saya akses di Perpustakaan Soeman H.S.?",
+                "Apa fasilitas di Perpustakaan Soeman H.S.?",
+                "Fasilitas yang disediakan di perpustakaan ini apa saja?",
+                "Apa saja layanan di Perpustakaan Soeman H.S. untuk pengunjung?",
+                "Layanan di Perpustakaan Soeman H.S. ada apa saja?",
+                "Fasilitas untuk pengunjung Perpustakaan Soeman H.S. apa saja yang tersedia?"
+            ],
+            "responses": [
+                "Di Perpustakaan Soeman H.S., tersedia berbagai layanan, antara lain:\n\n1) Layanan Anak\n2) Layanan Center of Excellence\n3) Layanan BI Corner\n4) Layanan Bilik Tenas Effendy\n5) Layanan Digital Center\n6) Layanan Bilik KPK\n7) Layanan Referensi\n8) Layanan Bilik Melayu\n9) Layanan Bilik Difabel\n10) Ruang Diskusi\n11) Ruang Menyusui\n12) Komputer\n13) Wi-Fi Gratis"
+            ]
+        },        
+        {
+            "tag": "alur_kunci_loker",
+            "patterns": [
+                "Bagaimana alur peminjaman kunci loker?",
+                "Gimana cara pinjam kunci loker di Perpustakaan Soeman H.S.?",
+                "Apa langkah-langkah untuk meminjam kunci loker?",
+                "Ada prosedur khusus untuk peminjaman kunci loker?",
+                "Apa yang perlu dilakukan untuk mendapatkan kunci loker?",
+                "Bagaimana proses meminjam loker?",
+                "Langkah-langkah mendapatkan kunci loker bagaimana?",
+                "Apakah harus mendaftar untuk meminjam kunci loker?",
+                "Dimana saya bisa meminjam kunci loker?",
+                "Bisakah dijelaskan cara meminjam kunci loker?",
+                "Bagaimana cara mengembalikan kunci loker?",
+                "Apa langkah-langkah pengembalian kunci loker?",
+                "Gimana prosedur untuk mengembalikan kunci loker?",
+                "Apa yang harus dilakukan setelah menggunakan loker?",
+                "Apa yang dilakukan untuk mengembalikan kunci loker?",
+                "Proses mengembalikan kunci loker bagaimana?",
+                "Bagaimana cara pengembalian kunci loker di Perpustakaan Soeman H.S.?",
+                "Apakah ada aturan khusus untuk mengembalikan kunci loker?",
+                "Dimana saya mengembalikan kunci loker?",
+                "Apakah ada tahapan khusus untuk pengembalian kunci loker?"
+            ],
+            "responses": [
+                "Berikut adalah alur peminjaman dan pengembalian kunci loker di Perpustakaan Soeman H.S.:\n\n**Alur Peminjaman Kunci Loker:**\n1. Pemustaka mendatangi meja petugas penitipan tas dan mengisi buku daftar pengunjung.\n2. Pemustaka memberikan kartu identitas sebagai jaminan pemakaian loker tempat penyimpanan barang.\n3. Petugas memberikan kunci dan nomor loker.\n4. Pemustaka menyimpan barang bawaan ke loker.\n\n**Alur Pengembalian Kunci Loker:**\n1. Pemustaka menuju ke ruang loker dan mengambil barang.\n2. Pemustaka menyerahkan kunci pada petugas di loket loker.\n3. Diproses oleh petugas.\n4. Petugas menyerahkan kartu identitas dari kotak kartu sesuai nomor kunci yang diberikan pemustaka.\n5. Pemustaka membawa kembali kartu identitas."
+            ]
+        },        
+        {
+            "tag": "layanan_penitipan_tas",
+            "patterns": [
+                "Apa syarat untuk layanan penitipan tas?",
+                "Gimana cara titip tas di Perpustakaan Soeman H.S.?",
+                "Apa saja yang harus dibawa untuk penitipan tas?",
+                "Boleh jelaskan cara penitipan tas di Perpustakaan Soeman H.S.?",
+                "Ada syarat khusus untuk penitipan tas?",
+                "Bagaimana cara penitipan tas?",
+                "Apa alur penitipan tas di Perpustakaan Soeman H.S.?",
+                "Apakah ada layanan penitipan tas di Perpustakaan Soeman H.S.?",
+                "Syarat dan ketentuan penitipan tas di perpustakaan ini apa saja?",
+                "Berapa biaya penitipan tas?",
+                "Ada biaya untuk penitipan tas?",
+                "Tarif penitipan tas berapa?",
+                "Penitipan tas dikenakan biaya nggak?",
+                "Apakah penitipan tas berbayar?",
+                "Apakah gratis untuk penitipan tas di perpustakaan?",
+                "Biaya penitipan loker di Perpustakaan Soeman H.S. ada tidak?",
+                "Apakah penitipan barang di Perpustakaan Soeman H.S. membutuhkan biaya?",
+                "Penitipan tas gratis atau berbayar?",
+                "Apakah ada tarif penitipan tas?",
+                "Apa saja sarana dan prasarana untuk penitipan tas?",
+                "Fasilitas penitipan tas apa saja yang ada?",
+                "Ada fasilitas lain selain loker untuk penitipan tas?",
+                "Sarana penitipan barang apa saja yang disediakan?",
+                "Peralatan penitipan tas di Perpustakaan Soeman H.S. ada apa saja?",
+                "Fasilitas penitipan barang meliputi apa saja?",
+                "Bagaimana fasilitas penitipan tas di Perpustakaan Soeman H.S.?",
+                "Apa saja yang mendukung layanan penitipan barang?",
+                "Fasilitas penitipan barang seperti apa di perpustakaan?"
+            ],
+            "responses": [
+                "Layanan penitipan tas di Perpustakaan Soeman H.S. memiliki ketentuan berikut:\n\n1. **Syarat Penitipan Tas:** Pemustaka harus memberikan kartu identitas asli yang masih berlaku, seperti:\n   - Kartu Pelajar\n   - Kartu Mahasiswa\n   - KTP\n   - SIM\n   - KIA (bagi anak di bawah usia 17 tahun jika tidak membawa kartu pelajar).\n\n2. **Biaya Penitipan Tas:** Penitipan tas tidak dikenakan biaya alias gratis! 😊\n\n3. **Fasilitas Penitipan Tas:** Fasilitas yang disediakan meliputi:\n   - Kunci loker bernomor.\n   - Tanda penitipan barang bernomor.\n   - Loker dan tempat penitipan barang.\n   - Ruang tunggu.\n   - Alat tulis dan buku tamu."
+            ]
+        },        
+        {
+            "tag": "jaminan_pelayanan_perpustakaan",
+            "patterns": [
+                "Apa jaminan pelayanan di perpustakaan?",
+                "Seputar jaminan pelayanan",
+                "Bagaimana kualitas pelayanan di perpustakaan?",
+                "Apa yang dijamin dalam pelayanan perpustakaan?",
+                "Bagaimana cara perpustakaan menjamin pelayanan?",
+                "Apa yang dimaksud dengan jaminan pelayanan?",
+                "Bagaimana pelayanan di perpustakaan Soeman H.S. dijamin?"
+            ],
+            "responses": [
+                "Jaminan pelayanan di Perpustakaan Soeman H.S. meliputi: \n1. Kepastian persyaratan, waktu proses, dan prosedur yang jelas, didukung oleh SDM yang berkompeten. \n2. Pelayanan yang baik dengan perwujudan 3S (Senyum, Salam, dan Sapa). \n3. Tersedianya prosedur, tata tertib, dan petunjuk yang jelas. \n4. Fasilitas pendukung yang memadai. \n5. Pendidikan dan pelatihan untuk SDM untuk mengembangkan wawasan dan skill. \n6. Jaminan bebas dari praktik KKN."
+            ]
+        },
+        {
+            "tag": "aksesibilitas_perpustakaan",
+            "patterns": [
+                "aksesibilitas di perpustakaan?",
+                "Perpustakaan Soeman H.S. untuk difabel?",
+                "Bagaimana cara difabel mengakses perpustakaan?",
+                "Apakah perpustakaan ramah difabel?",
+                "lift di perpustakaan",
+                "apakah ada lift",
+                "di perpustakaan ada lift?",
+                "apakah perpustakaan dilengkapi lift",
+                "Bagaimana dengan akses kursi roda di perpustakaan?",
+                "Apakah perpustakaan menyediakan toilet untuk difabel?",
+                "Ada lift di perpustakaan untuk memudahkan akses difabel?",
+                "Perpustakaan Soeman H.S. memperhatikan aksesibilitas?",
+                "Apa yang memudahkan penyandang disabilitas di perpustakaan?",
+                "Perpustakaan ini bisa diakses oleh penyandang disabilitas?"
+            ],
+            "responses": [
+                "Perpustakaan Soeman H.S. menyediakan berbagai fasilitas aksesibilitas, seperti: \n1. Jalur khusus kursi roda pada jalur masuk. \n2. Toilet dengan standar difabel. \n3. 1 unit lift untuk memudahkan mobilitas difabel di seluruh area perpustakaan."
+            ]
+        },
+        {
+            "tag": "jaminan_keselamatan_keamanan",
+            "patterns": [
+                "Bagaimana dengan keselamatan di perpustakaan?",
+                "Apa saja yang menjamin keamanan pemustaka di perpustakaan?",
+                "Apakah perpustakaan memiliki prosedur keselamatan?",
+                "Ada alat pemadam kebakaran di perpustakaan?",
+                "Bagaimana prosedur evakuasi di perpustakaan?",
+                "Perpustakaan Soeman H.S. aman untuk dikunjungi?",
+                "Apakah ada jalur evakuasi di perpustakaan?",
+                "Bagaimana keamanan di ruang perpustakaan?",
+                "Apakah ruang perpustakaan ber-AC?",
+                "Perpustakaan ber ac?",
+                "ac di perpustakaan?",
+                "jika terjadi kebakaran?"
+            ],
+            "responses": [
+                "Perpustakaan Soeman H.S. menjamin keselamatan dan keamanan pemustaka dengan fasilitas yang lengkap, seperti: \n1. Petunjuk layanan yang jelas. \n2. Ruangan ber-AC untuk kenyamanan. \n3. Jalur evakuasi yang terstandarisasi untuk keadaan darurat. \n4. Kelengkapan alat pemadam kebakaran untuk penanggulangan awal kebakaran."
+            ]
+        },
+        {
+            "tag": "evaluasi_kinerja_pelaksana",
+            "patterns": [
+                "Bagaimana cara evaluasi kinerja di perpustakaan?",
+                "Apakah ada evaluasi kerja di perpustakaan?",
+                "Kapan evaluasi kinerja diadakan di perpustakaan?",
+                "Siapa yang mengevaluasi kinerja di perpustakaan?",
+                "Evaluasi kerja dilakukan oleh siapa di perpustakaan?",
+                "Seberapa sering evaluasi kinerja dilakukan di perpustakaan?"
+            ],
+            "responses": [
+                "Evaluasi kinerja di Perpustakaan Soeman H.S. dilakukan setiap 3 bulan sekali. Evaluasi ini dilakukan oleh: \n1. Bidang Pelayanan Perpustakaan, Dokumentasi, dan Informasi Perpustakaan. \n2. Ketua Tim Pelayanan Perpustakaan."
+            ]
+        },
+        {
+            "tag": "layanan_informasi",
+            "patterns": [
+                "Bagaimana cara mendapatkan layanan informasi di perpustakaan?",
+                "Apa saja yang harus dilakukan untuk mendapatkan informasi di perpustakaan?",
+                "Prosedur layanan informasi di perpustakaan seperti apa?",
+                "Bagaimana cara meminta informasi di perpustakaan?",
+                "Apa yang perlu dilakukan untuk mendapatkan informasi di Perpustakaan Soeman H.S.?",
+                "Menggunakan layanan informasi",
+                "cara mengakses informasi seputar perpustakaan",
+                "bagaimana bertanya informasi",
+                "Apakah ada staf perpustakaan yang bisa membantu saya mencari informasi",
+                "mengakses informasi",
+                "durasi mendapatkan informasi",
+                "apakah layanan informasi gratis",
+                "layanan informasi berbayar",
+                "Berapa lama waktu yang dibutuhkan untuk mendapatkan informasi di perpustakaan?",
+                "Berapa lama proses layanan informasi di Perpustakaan Soeman H.S.?",
+                "Ada biaya untuk mendapatkan informasi di perpustakaan?",
+                "Apakah layanan informasi di perpustakaan berbayar?",
+                "Waktu untuk mendapatkan informasi"
+            ],
+            "responses": [
+                "Berikut adalah mekanisme layanan informasi di Perpustakaan Soeman H.S.:\n\n1. Pemustaka datang ke meja layanan informasi, menanyakan informasi yang dibutuhkan, dan mengisi buku tamu sesuai dengan kartu identitas pemustaka.\n2. Petugas akan memproses permintaan informasi sesuai dengan formulir permintaan informasi yang telah diisi pemustaka.\n3. Jika informasi yang diminta membutuhkan izin pimpinan, petugas akan meneruskan permintaan kepada pimpinan.\n4. Petugas akan membimbing pemustaka dalam menggunakan fasilitas komputer untuk menemukan informasi atau mengarahkan pemustaka ke lokasi layanan yang sesuai.\n\n**Waktu dan Biaya Layanan:**\n- Waktu penyelesaian untuk mendapatkan informasi adalah sekitar **5 menit**.\n- Layanan informasi ini **GRATIS**, tidak ada biaya yang dibebankan kepada pemustaka."
+            ]
+        },        
+        {
+            "tag": "layanan_anak",
+            "patterns": [
+                "Bagaimana cara menggunakan layanan anak di perpustakaan?",
+                "Apa yang harus dilakukan untuk menggunakan layanan anak?",
+                "Bagaimana cara memanfaatkan layanan buku anak di perpustakaan?",
+                "Apa yang perlu dilakukan untuk bermain di layanan anak?",
+                "Apa saja fasilitas di layanan anak?",
+                "layanan anak apa",
+                "Apa yang disediakan di layanan anak?",
+                "Layanan anak di perpustakaan menyediakan apa saja?"
+            ],
+            "responses": [
+                "Layanan Anak di Perpustakaan Soeman H.S. adalah fasilitas yang dirancang untuk mendukung kegiatan belajar dan bermain anak-anak melalui akses buku, mainan, dan area interaktif yang menyenangkan. Berikut adalah informasi mengenai layanan anak di Perpustakaan Soeman H.S.:\n\n**Mekanisme Penggunaan Layanan Anak:**\n1. Mengisi buku tamu di meja petugas.\n2. Mengambil buku dari rak atau meminta mainan kepada petugas.\n3. Membaca buku atau bermain di tempat yang disediakan.\n4. Setelah selesai, letakkan buku atau mainan di tempat yang telah disediakan.\n\n**Fasilitas yang Tersedia di Layanan Anak:**\n1. Komputer dengan jaringan LAN dan aplikasi data pengunjung.\n2. Alat tulis dan buku untuk mendukung kegiatan anak-anak.\n3. Permainan yang menyenangkan untuk anak-anak.\n\nLayanan ini dirancang untuk memberikan pengalaman belajar dan bermain yang nyaman serta menyenangkan bagi anak-anak."
+            ]
+        },
+        {
+            "tag": "kunjungan_dan_bimbingan_pemustaka",
+            "patterns": [
+                "Bagaimana cara mengajukan kunjungan ke perpustakaan?",
+                "Apa prosedur untuk kunjungan ke perpustakaan?",
+                "Bagaimana prosedur bimbingan pemustaka?",
+                "Melakukan kunjungan perpustakaan",
+                "Cara melakukan kunjungan perpustakaan",
+                "Apakah ada kegiatan atau acara yang diselenggarakan oleh perpustakaan, seperti bedah buku atau pelatihan?",
+                "mengadakan acara kegiatan diperpustakaan",
+                "Apa saja yang perlu dilakukan untuk kunjungan ke perpustakaan?",
+                "Berapa lama waktu yang diperlukan untuk kunjungan wisata pustaka?",
+                "Apakah ada biaya untuk kunjungan ke perpustakaan?",
+                "biaya kunjungan perpustakaan",
+                "kunjungan perpustakaan gratis",
+                "fasilitas yang terdapat di perpustakaan",
+                "Apa produk layanan yang diberikan selama kunjungan ke perpustakaan?",
+                "Fasilitas apa saja yang tersedia selama kunjungan dan bimbingan pemustaka?",
+                "Apa itu kunjungan pemustaka?",
+                "Bagaimana cara mengatur kunjungan perpustakaan?",
+                "Apakah kunjungan ke perpustakaan memerlukan persyaratan tertentu?",
+                "Apakah kunjungan ke perpustakaan harus dijadwalkan?",
+                "Siapa yang dapat melakukan kunjungan ke perpustakaan?",
+                "Apa yang dimaksud dengan bimbingan pemustaka?",
+                "Bagaimana cara mendapatkan bimbingan di perpustakaan?",
+                "Bisakah individu mengajukan kunjungan perpustakaan?",
+                "Apakah instansi bisa mengatur kunjungan ke perpustakaan?"
+            ],
+            "responses": [
+                "Berikut adalah informasi lengkap mengenai kunjungan dan bimbingan pemustaka di Perpustakaan Soeman H.S.:\n\n**Prosedur Kunjungan dan Bimbingan Pemustaka:**\n1. Mengajukan surat permohonan kunjungan terlebih dahulu.\n2. Petugas akan memproses surat permohonan tersebut.\n3. Setelah itu, petugas akan melakukan konfirmasi ulang jadwal kunjungan.\n4. Pustakawan akan menerima kunjungan dan memberikan bimbingan pemustaka sesuai kebutuhan.\n\n**Ketentuan Waktu dan Biaya:**\n- Waktu kunjungan wisata pustaka adalah sekitar 2 jam.\n- Tidak ada biaya yang dikenakan untuk kunjungan, layanan ini gratis.\n\n**Produk Layanan dan Fasilitas yang Tersedia:**\n- Produk layanan utama adalah Layanan Bimbingan Pemustaka, yang membantu pengunjung memahami koleksi dan fasilitas perpustakaan.\n- Fasilitas yang tersedia meliputi alat tulis, microphone untuk keperluan presentasi atau diskusi, dan area yang nyaman untuk kegiatan kunjungan."
+            ]
+        },                
+        {
+            "tag": "proses_pendaftaran_dan_perpanjangan_anggota",
+            "patterns": [
+                "Gimana cara jadi anggota perpustakaan?",
+                "Apa syarat daftar anggota perpustakaan?",
+                "Dokumen apa yang dibutuhkan untuk jadi anggota?",
+                "Boleh perpanjang kartu anggota?",
+                "Bagaimana cara perpanjang kartu anggota?",
+                "Apa yang harus dibawa buat jadi anggota?",
+                "Bagaimana cara mengurus kartu anggota?",
+                "Apa yang perlu dibawa buat registrasi?",
+                "Bagaimana cara mendaftar jadi anggota?",
+                "Apa itu kartu anggota perpustakaan?",
+                "Bisakah saya mendaftar sebagai anggota perpustakaan?",
+                "Bagaimana cara membuat kartu perpustakaan?",
+                "Apa manfaat menjadi anggota perpustakaan?",
+                "Berapa lama proses pendaftaran anggota?",
+                "Gimana cara daftar anggota perpustakaan langsung?",
+                "Bagaimana proses pendaftaran offline?",
+                "Apa yang harus dilakukan saat daftar anggota?",
+                "Langkah-langkah daftar anggota perpustakaan offline?",
+                "Bagaimana proses pembuatan kartu anggota langsung?",
+                "Gimana cara daftar anggota online?",
+                "Bagaimana cara pendaftaran anggota secara online?",
+                "Apa langkah-langkah untuk daftar anggota online?",
+                "Pendaftaran anggota perpustakaan online itu gimana?",
+                "Apakah saya bisa daftar anggota online dari rumah?",
+                "Bagaimana cara mengisi formulir pendaftaran anggota secara online?",
+                "Apakah pendaftaran online lebih cepat daripada langsung ke perpustakaan?",
+                "Bagaimana cara perpanjang kartu anggota?",
+                "biaya perpanjangan kartu",
+                "biaya pembuatan kartu",
+                "pembuatan kartu gratis",
+                "perpanjangan kartu gratis",
+                "Apa yang perlu dilakukan untuk perpanjang kartu anggota?",
+                "Gimana cara perpanjang kartu anggota perpustakaan?",
+                "Bagaimana prosedur perpanjangan kartu anggota?",
+                "cara perpanjang kartu anggota",
+                "memperpanjang kartu anggota perpustakaan",
+                "Apakah saya bisa memperpanjang kartu anggota melalui online?",
+                "Berapa lama waktu yang dibutuhkan untuk perpanjangan kartu anggota?",
+                "Berapa lama waktu yang dibutuhkan untuk registrasi anggota?",
+                "Ada biaya untuk pendaftaran anggota?",
+                "Di mana saya bisa mendaftar anggota perpustakaan?",
+                "link untuk daftar secara online",
+                "biaya pendaftaran",
+                "Apa yang harus dibawa untuk mendaftar menjadi anggota?",
+                "Apakah ada pendaftaran anggota untuk pelajar atau mahasiswa?"
+            ],
+            "responses": [
+                "Untuk menjadi anggota Perpustakaan Soeman H.S., pemustaka harus mengisi formulir pendaftaran dan membawa fotokopi identitas diri seperti KIA, KTP, atau KTM. Jika ingin memperpanjang kartu anggota, cukup membawa kartu anggota lama. Pendaftaran bisa dilakukan secara langsung di perpustakaan dengan mengisi formulir pendaftaran, atau melalui pendaftaran online dengan mengisi formulir dan mencetaknya. Proses pendaftaran offline meliputi pengisian formulir, verifikasi data, pengambilan foto, dan pencetakan kartu anggota. Waktu penyelesaian registrasi anggota adalah sekitar 12 menit (diluar waktu antri). Untuk pendaftaran online, kamu bisa mengakses http://pustaka.riau.go.id/inlislite/. Pendaftaran ini gratis, tanpa biaya. Khusus untuk KTP/KIA, kartu anggota berlaku seumur hidup, sedangkan untuk KTM sesuai masa berlaku KTM. Fasilitas yang digunakan untuk registrasi meliputi aplikasi INLISlite, komputer dengan jaringan LAN, aplikasi pangkalan data keanggotaan, printer, dan ATK. Jika ingin memperpanjang kartu anggota, bawa kartu anggota lama dan kartu identitas. Petugas akan memverifikasi data dan mengganti kartu anggota jika diperlukan."
+            ]
+        },        
+        {
+            "tag": "surat_keterangan_bebas_pustaka",
+            "patterns": [
+                "Apa syarat untuk mendapatkan surat keterangan bebas pustaka?",
+                "Bagaimana cara mendapatkan surat keterangan bebas pustaka?",
+                "Apa saja yang perlu dibawa untuk membuat surat keterangan bebas pustaka?",
+                "Apa persyaratan untuk mengurus surat bebas pustaka?",
+                "Berapa lama waktu yang dibutuhkan untuk mendapatkan surat keterangan bebas pustaka?",
+                "Apakah ada biaya untuk membuat surat keterangan bebas pustaka?",
+                "Bagaimana prosedur untuk mendapatkan surat keterangan bebas pustaka?",
+                "Apa alur pembuatan surat keterangan bebas pustaka?",
+                "Bagaimana cara memproses surat bebas pustaka?",
+                "Apa yang harus dilakukan untuk mendapatkan surat keterangan bebas pustaka?",
+                "Apa saja tahapan untuk mendapatkan surat keterangan bebas pustaka?",
+                "Bisakah saya langsung mendapatkan surat bebas pustaka hari ini?",
+                "Dokumen apa yang harus saya bawa untuk mendapatkan surat keterangan bebas pustaka?",
+                "Apa yang perlu disiapkan untuk membuat surat keterangan bebas pustaka?",
+                "Apa itu surat keterangan bebas pustaka?",
+                "Kenapa saya perlu surat keterangan bebas pustaka?",
+                "Apa manfaat dari surat keterangan bebas pustaka?",
+                "Apakah setiap anggota bisa mendapatkan surat bebas pustaka?"
+            ],
+            "responses": [
+                "Untuk mendapatkan surat keterangan bebas pustaka, pemustaka perlu membawa foto copy identitas diri seperti KTP dan kartu anggota perpustakaan jika sudah menjadi anggota. Prosedurnya meliputi verifikasi status keanggotaan, memeriksa apakah masih ada buku yang dipinjam, dan jika tidak ada pinjaman, surat keterangan bebas pustaka akan diterbitkan dan diberikan kepada pemustaka. Surat keterangan bebas pustaka dapat diurus dalam waktu sekitar 1-2 hari kerja, dan tidak ada biaya yang dibebankan untuk layanan ini."
+            ]
+        },        
+        {
+            "tag": "layanan_baca_di_tempat",
+            "patterns": [
+                "Bagaimana cara baca buku di perpustakaan?",
+                "Apa yang harus dilakukan untuk baca di perpustakaan?",
+                "Bolehkah saya membaca buku di perpustakaan?",
+                "Di mana letak koleksi buku fiksi/non-fiksi/anak-anak/referensi/majalah/koran",
+                "bagaimana mencari buku",
+                "Bagaimana mencari buku untuk dibaca?",
+                "berapa koleksi yang ada di perpustakaan",
+                "dimana saya dapat mencari koleksi buku",
+                "Apa yang harus saya lakukan jika saya tidak menemukan buku yang saya cari?",
+                "Apakah boleh memfotocopy buku?",
+                "fotokopi buku",
+                "Apakah perpustakaan menyediakan layanan fotocopy atau print?",
+                "layanan fotocopy print",
+                "Apakah perpustakaan menyediakan layanan fotokopi atau pencetakan dokumen?",
+                "bolehkah melakukan potokopi buku",
+                "potokopi buku ata dokumen",
+                "bagaimana cara menggunakan opac",
+                "cara menggunakan opac",
+                "cara akses opac",
+                "cara cari buku dengan opac",
+                "cara kerja opac",
+                "Opac bagaimana cara pakainya",
+                "photocopy",
+                "dimana saya dapat menemukan buku sejarah",
+                "buku fiksi dimana",
+                "buku sejarah dimana",
+                "dimana letak novel",
+                "dimana letak buku sejarah",
+                "dimana saya dapat menemukan buku yang saya cari",
+                "buku dimana",
+                "Di mana saya bisa mendapatkan katalog buku perpustakaan",
+                "katalog buku perpustakaan",
+                "cara cari buku",
+                "akses katalog buku",
+                "Apa yang harus saya lakukan setelah selesai membaca buku?",
+                "Bolehkah saya membawa buku keluar untuk membaca di area lain?"
+            ],
+            "responses": [
+                "Untuk baca di perpustakaan, isi buku tamu dulu, cari buku lewat OPAC (Online Public Access Catalog) dengan mengakses link berikut http://pustaka.riau.go.id/inlislite/ , atau minta bantuan petugas. Buku yang telah dibaca atau batal dipinjam harus dikembalikan kepada petugas, tidak diperbolehkan mengembalikannya sendiri ke rak. Mohon diletakkan ke bagian sirkulasi atau diserahkan pada petugas untuk menghindari salah tempat yang tidak sesuai dengan klasifikasi/subjeknya. Kalau ingin fotocopy buku, tinggalkan identitas atau barang berharga sebagai jaminan. Buku hanya boleh dibaca di area yang disediakan perpustakaan."
+            ]
+        },
+        {
+            "tag": "proses_peminjaman_buku",
+            "patterns": [
+                "Apa saja syarat untuk pinjam buku?",
+                "Apakah saya perlu menjadi anggota untuk meminjam buku?",
+                "Berapa banyak buku yang bisa dipinjam?",
+                "Bolehkah orang lain meminjamkan buku atas nama saya?",
+                "Berapa lama masa pinjaman buku?",
+                "Bisakah saya memperpanjang pinjaman buku?",
+                "Apakah ada batasan jenis buku yang bisa dipinjam?",
+                "Dapatkah saya meminjam lebih dari dua buku jika diperlukan?",
+                "Bagaimana cara meminjam buku di perpustakaan?",
+                "Apa prosedur peminjaman buku di perpustakaan?",
+                "Apa yang perlu dilakukan untuk meminjam buku?",
+                "Bagaimana cara pinjam buku dan dapatkan kartu peminjaman?",
+                "Apakah ada syarat khusus untuk meminjam buku?",
+                "Apa yang terjadi jika saya terlambat mengembalikan buku?",
+                "Berapa lama waktu peminjaman buku?",
+                "denda buku",
+                "pinjam buku",
+                "peminjaman buku",
+                "bagaimana prosedur peminjaman buku",
+                "cara meminjam buku",
+                "Apakah saya bisa meminjam buku tanpa kartu anggota?",
+                "jika telat adakah denda",
+                "Apakah ada biaya untuk meminjam buku?",
+                "Apa saja yang diperlukan untuk meminjam buku?",
+                "Siapa yang melayani peminjaman buku?",
+                "Berapa lama waktu yang dibutuhkan untuk meminjam buku?",
+                "Apa saja tahapan saat meminjam buku di perpustakaan?"
+            ],
+            "responses": [
+                "Untuk pinjam buku, kamu butuh kartu anggota yang masih berlaku, dan tidak bisa diwakilkan. Kamu bisa meminjam maksimal 2 buku dengan masa peminjaman 1 minggu, dan bisa diperpanjang 1 kali. Untuk koleksi khusus atau referensi, hanya bisa dibaca di tempat.\n\nBerikut prosedur peminjaman buku:\n1. Cari bahan perpustakaan yang ingin dipinjam, dan bawa kartu anggota serta maksimal 2 buku dari koleksi yang bisa dipinjam ke meja petugas sirkulasi.\n2. Petugas akan memeriksa kondisi buku, halaman, barcode, dan memastikan kartu anggota masih berlaku.\n3. Jika ada masalah, petugas akan meminta untuk memperpanjang keanggotaan atau menyelesaikan masalah terlebih dahulu.\n4. Petugas mencatat peminjaman di formulir dan memberikan slip pengembalian kepada pemustaka.\n5. Buku akan dipinjam dan diserahkan dengan pengingat tanggal pengembalian.\n\nKetentuan khusus:\n1. Peminjaman koleksi umum hanya di ruang koleksi umum.\n2. Peminjaman koleksi anak hanya di ruang koleksi anak.\n3. Keterlambatan pengembalian buku akan dikenakan denda sesuai dengan ketentuan perpustakaan.\n\nLayanan peminjaman buku memiliki ketentuan sebagai berikut:\n1. Waktu penyelesaian peminjaman adalah 5 menit (diluar waktu antri).\n2. Tidak ada biaya atau tarif yang dikenakan untuk peminjaman buku (Gratis).\n3. Produk layanan ini adalah layanan peminjaman koleksi.\n\nFasilitas yang digunakan:\n1. Komputer dengan jaringan LAN dan aplikasi data pengunjung.\n2. Alat pemindai barcode (barcode reader).\n3. Alat pengaktifan dan penonaktifan alarm pengaman koleksi.\n4. Stempel tanggal kembali koleksi/buku perpustakaan.\n5. Kartu peminjaman koleksi/buku.\n6. Alat tulis."
+            ]
+        },
+        {
+            "tag": "proses_pengembalian_buku",
+            "patterns": [
+                "Apa saja persyaratan untuk mengembalikan buku?",
+                "Bisakah orang lain mengembalikan buku atas nama saya?",
+                "Berapa maksimal jumlah buku yang dapat dikembalikan?",
+                "Berapa lama masa peminjaman buku?",
+                "Apa yang perlu saya siapkan untuk mengembalikan buku?",
+                "Apakah ada batasan jenis buku yang bisa dikembalikan?",
+                "Bolehkah saya mengembalikan buku terlambat?",
+                "Bagaimana cara mengembalikan buku di perpustakaan?",
+                "Apa langkah-langkah untuk mengembalikan koleksi buku?",
+                "Bagaimana jika buku yang saya kembalikan terlambat?",
+                "Apa yang harus saya lakukan jika buku rusak atau hilang?",
+                "Apakah saya bisa mengembalikan buku setelah lewat waktu peminjaman?",
+                "Bagaimana cara mengetahui apakah buku saya terlambat?",
+                "Apa yang terjadi jika buku terlambat dikembalikan?",
+                "Bagaimana jika saya terlambat mengembalikan buku?",
+                "Apa sanksinya jika terlambat mengembalikan buku?",
+                "Jika saya terlambat mengembalikan buku, apa yang harus dilakukan?",
+                "Apa akibatnya kalau telat kembalikan buku?",
+                "buku rusak",
+                "buku hilang",
+                "telat dikembalikan",
+                "Adakah denda kalau terlambat mengembalikan buku?",
+                "Apa yang harus saya bayar jika terlambat kembalikan buku?",
+                "Bolehkah saya meminjam buku lagi jika terlambat mengembalikannya?",
+                "Apakah ada sanksi jika buku tidak dikembalikan tepat waktu?",
+                "Bagaimana jika buku yang saya pinjam hilang atau rusak?",
+                "Apa yang harus dilakukan jika saya lupa mengembalikan buku tepat waktu?"
+            ],
+            "responses": [
+                "Untuk pengembalian koleksi, pastikan Anda memenuhi persyaratan berikut:\n1. Kartu anggota yang masih berlaku.\n2. Pengembalian tidak bisa diwakilkan.\n3. Maksimal peminjaman 2 buku.\n4. Masa peminjaman 1 minggu, yang dapat diperpanjang 1 kali masa peminjaman.\n\nAlur pengembalian koleksi di perpustakaan:\n1. Datangi meja petugas sirkulasi dan bawa kartu anggota serta koleksi yang akan dikembalikan.\n2. Petugas akan memeriksa kondisi buku dan memastikan pengembalian dilakukan dalam waktu yang tepat (tidak lebih dari 7 hari).\n3. Jika terlambat, Anda tidak dapat meminjam buku hingga masa keterlambatan selesai. Jika buku rusak atau hilang, Anda akan diminta mengganti buku tersebut.\n4. Proses pengembalian akan dilakukan di komputer atau secara manual, dan status koleksi akan diubah menjadi 'dikembalikan'.\n5. Petugas akan mengembalikan kartu anggota Anda setelah proses selesai.\n\nInformasi tambahan:\n- Waktu penyelesaian pengembalian koleksi adalah 5 menit (tergantung antrian).\n- Biaya pengembalian buku adalah gratis, tidak ada biaya yang dikenakan.\n\nFasilitas yang digunakan untuk pengembalian koleksi meliputi:\n1. Komputer dengan jaringan LAN dan aplikasi data pengunjung.\n2. Alat pemindai barcode.\n3. Alat pengaktifan dan penonaktifan alarm pengaman koleksi.\n4. Stempel tanggal kembali koleksi.\n5. Kartu peminjaman koleksi.\n6. Alat tulis.\n\nSanksi keterlambatan dan kerusakan/hilangnya buku:\n- Jika terlambat mengembalikan buku, pemustaka akan dikenakan sanksi berupa penundaan peminjaman selama waktu keterlambatan tersebut.\n- Jika buku yang dipinjam rusak atau hilang, pemustaka diwajibkan untuk mengganti buku dengan buku yang sama setara.\n\nSanksi bertingkat untuk keterlambatan pengembalian:\n1. Teguran.\n2. Penundaan peminjaman.\n3. Pencabutan keanggotaan."
+            ]
+        }, 
+        {
+            "tag": "peraturan_perpustakaan",
+            "patterns": [
+                "Apa saja peraturan di perpustakaan?",
+                "tata cara di perpustakaan",
+                "aturan di perpustakaan",
+                "tata tertib perpustakaan",
+                "tata tertib membaca di perpustakaan",
+                "Apakah saya boleh membawa makanan atau minuman ke dalam perpustakaan?",
+                "makan minum di perpustakaan",
+                "merokok di perpustakaan",
+                "apakah harus menggunakan sepatu",
+                "apakah boleh menggunakan sandal",
+                "bolehkah membawa minum di perpustakaan",
+                "hal yang dilarang di perpustakaan",
+                "Bagaimana peraturan selama di perpustakaan?",
+                "Peraturan yang harus diikuti di perpustakaan",
+                "Apa yang tidak boleh dilakukan di perpustakaan?",
+                "Apakah ada aturan di perpustakaan?"
+            ],
+            "responses": [
+                "Berikut adalah Tata Tertib Pemustaka di Perpustakaan Soeman H.S. Provinsi Riau:\n\n1. **Menjaga Ketertiban dan Kenyamanan**: Setiap pengunjung wajib menjaga kebersihan, keamanan, ketertiban, ketenangan, kenyamanan, dan kesopanan.\n2. **Larangan Membawa Makanan dan Minuman**: Tidak diperbolehkan makan, minum, dan merokok selama berada dalam ruang baca perpustakaan.\n3. **Tidak Mengganggu Pengunjung Lain**: Dilarang membuat keributan atau melakukan tindakan yang dapat mengganggu sesama pengunjung.\n4. **Menjaga Fasilitas Perpustakaan**: Tidak mencoret-coret meja atau peralatan lain dalam ruangan perpustakaan.\n5. **Berpakaian Sopan dan Rapi**: Setiap pengunjung wajib mengenakan pakaian yang sopan dan rapi.\n6. **Larangan Membawa Tas ke Ruang Baca**: Pengunjung tidak diperbolehkan membawa segala jenis dan bentuk tas atau kantong ke dalam ruang baca.\n7. **Pengembalian Buku ke Petugas**: Buku yang telah dibaca atau batal dipinjam harus dikembalikan kepada petugas, tidak diperbolehkan mengembalikannya sendiri ke rak. Mohon diletakkan ke bagian sirkulasi atau diserahkan pada petugas untuk menghindari salah tempat yang tidak sesuai dengan klasifikasi/subjeknya.\n8. **Peminjaman Buku**: Dilarang membawa buku, majalah, atau bahan pustaka lainnya milik perpustakaan keluar tanpa diregistrasi terlebih dahulu di bagian peminjaman.\n9. **Ketertiban di Ruang Baca**: Pengunjung tidak diperkenankan duduk atau membaca di lorong-lorong rak buku.\n10. **Sanksi Pelanggaran**: Pelanggaran terhadap tata tertib akan dikenakan sanksi sesuai dengan prosedur dan ketentuan yang berlaku di lingkungan Badan Perpustakaan Arsip dan Dokumentasi Provinsi Riau."
+            ]
+        },                              
+        {
+            "tag": "layanan_mendongeng_extended",
+            "patterns": [
+                "Siapa yang bisa ikut mendongeng di perpustakaan?",
+                "Apakah ada batasan usia untuk mengikuti layanan mendongeng?",
+                "Bolehkah anak-anak memegang boneka saat sesi mendongeng?",
+                "Apa yang harus saya lakukan jika saya ingin membawa anak ke sesi mendongeng?",
+                "Bisakah saya mengajak teman-teman saya untuk ikut sesi mendongeng?",
+                "Bagaimana cara mendaftar untuk mengikuti layanan mendongeng?",
+                "Apakah saya perlu mendaftar sebelumnya untuk mendengarkan dongeng?",
+                "Apakah ada batasan jumlah orang yang bisa mengikuti layanan mendongeng?",
+                "Apa yang harus saya bawa jika ingin membawa anak ke layanan mendongeng?",
+                "Bolehkah saya membawa makanan dan minuman saat ikut sesi mendongeng?",
+                "Dapatkah saya mengikuti layanan mendongeng jika saya tidak anggota perpustakaan?",
+                "Apakah ada tempat duduk yang tersedia selama sesi mendongeng?",
+                "Bagaimana saya mengetahui jadwal sesi mendongeng?",
+                "Apakah layanan mendongeng tersedia setiap hari?",
+                "Apakah saya bisa mengundang teman-teman untuk mengikuti sesi mendongeng?",
+                "Apakah layanan mendongeng hanya untuk anak-anak atau juga untuk orang dewasa?",
+                "Apa yang terjadi jika saya terlambat datang untuk sesi mendongeng?",
+                "Apakah sesi mendongeng bisa diikuti secara virtual?",
+                "Berapa lama sesi mendongeng berlangsung setiap hari?",
+                "Bagaimana jika anak saya tidak tertarik mengikuti sesi mendongeng?"
+            ],
+            "responses": [
+                "Layanan mendongeng di perpustakaan dapat diikuti oleh anak-anak usia 0-6 tahun dengan bentuk rombongan. Orang dewasa diperbolehkan untuk mendampingi anak-anak, namun tidak dapat ikut serta dalam kegiatan mendongeng. Sebelum mengikuti sesi mendongeng, pastikan untuk melepas alas kaki dan duduk dengan tertib. Tidak diperkenankan membawa makanan atau minuman selama kegiatan. Sesi mendongeng berlangsung selama 30 menit dan tersedia tanpa biaya. Untuk mengikuti, pastikan untuk mendaftar atau bertanya langsung pada petugas untuk mengetahui jadwal dan prosedur."
+            ]
+        },
+        {
+            "tag": "layanan_perpustakaan_keliling_basic",
+            "patterns": [
+                "Apa itu perpustakaan keliling?",
+                "Dimana saya bisa menggunakan layanan perpustakaan keliling?",
+                "Bagaimana cara menggunakan perpustakaan keliling?",
+                "Siapa yang bisa menggunakan layanan perpustakaan keliling?",
+                "Apakah saya perlu membayar untuk menggunakan perpustakaan keliling?",
+                "Apakah saya bisa pinjam buku di perpustakaan keliling?",
+                "Apakah saya harus menjadi anggota untuk menggunakan perpustakaan keliling?",
+                "Bisa kah saya membaca buku di perpustakaan keliling?",
+                "Apakah ada buku anak-anak di perpustakaan keliling?",
+                "Apakah ada waktu tertentu untuk menggunakan perpustakaan keliling?",
+                "Berapa banyak buku yang bisa saya baca di perpustakaan keliling?",
+                "Dimana saya bisa menemukan layanan perpustakaan keliling?",
+                "Apakah semua orang bisa ikut membaca di perpustakaan keliling?",
+                "Apa yang harus saya bawa untuk menggunakan layanan perpustakaan keliling?",
+                "Apakah saya bisa duduk saat membaca di perpustakaan keliling?"
+            ],
+            "responses": [
+                "Perpustakaan keliling adalah layanan yang membawa buku ke tempat umum seperti sekolah atau area lainnya menggunakan mobil perpustakaan. Anda bisa membaca buku di lokasi yang disediakan, tapi tidak bisa meminjam buku. Layanan ini gratis, dan tersedia untuk semua orang tanpa perlu menjadi anggota. Anda hanya perlu mengisi buku tamu dan bisa membaca buku di sekitar mobil."
+            ]
+        },        
+        {
+            "tag": "informasi_layanan_pengaduan",
+            "patterns": [
+                "Bagaimana cara mengajukan pengaduan secara langsung?",
+                "Apa langkah-langkah untuk menggunakan layanan pengaduan?",
+                "Bagaimana cara mengajukan keluhan melalui media sosial?",
+                "Apakah pengaduan melalui form di layanan bilik atau online?",
+                "Apa yang dilakukan petugas setelah menerima pengaduan?",
+                "Apa yang terjadi setelah pengaduan diajukan?",
+                "Apakah ada nomor pengaduan yang bisa dihubungi?",
+                "Berapa lama waktu penyelesaian pengaduan?",
+                "Apakah ada biaya untuk menggunakan layanan pengaduan?",
+                "Apa saja sarana dan prasarana yang disediakan untuk pengaduan?",
+                "Apa yang dilakukan setelah pengaduan diterima?",
+                "Apa saja yang termasuk produk layanan pengaduan?",
+                "Apakah pengaduan bisa diajukan secara anonim?",
+                "penyampaian kritik dan saran",
+                "kritik dan saran",
+                "pengajuan judul buku",
+                "mengajukan judul buku yang belum ada"
+            ],
+            "responses": [
+                "Untuk pengaduan offline, pemustaka dapat menyampaikan keluhan langsung kepada petugas atau melalui form pengaduan. Petugas akan memverifikasi berkas dan melakukan pencatatan. Setelah pengaduan diajukan, tim pengaduan akan melakukan telaah untuk menentukan langkah selanjutnya, seperti klarifikasi atau penyediaan informasi. Jika pengaduan diajukan secara online, pemustaka mengirimkan keluhan melalui pesan di media sosial, dan admin akan meneruskan pesan ke tim pengaduan untuk tindakan lebih lanjut. Waktu penyelesaian pengaduan adalah 30 menit, diluar waktu penanganan oleh atasan. Tidak ada biaya untuk menggunakan layanan pengaduan, layanan ini gratis. Sarana dan prasarana yang disediakan untuk layanan pengaduan antara lain ATK, kotak saran, dan ruang tunggu. Setelah pengaduan diterima, tim pengaduan akan menindaklanjuti dengan menentukan langkah penyelesaian dan membuat laporan pengaduan. Produk layanan pengaduan meliputi pemustaka menyampaikan saran/keluhan, admin membalas atau meneruskan ke tim pengaduan, atasan memberikan jawaban, dan tim membuat laporan pengaduan. Pengaduan dapat diajukan secara anonim.\n\n**Untuk kritik dan saran** atau pengajuan buku, Anda bisa menggunakan **Bilik Kritik dan Saran** yang terletak di **lobi Gedung B** Perpustakaan Soeman H.S. Anda bisa menyampaikan saran atau pengajuan buku di sana. Kami sangat menghargai masukan Anda untuk meningkatkan kualitas layanan kami."
+            ]
+        },    
+        {
+            "tag": "layanan_difabel",
+            "patterns": [
+                "Bagaimana cara layanan untuk pemustaka berkebutuhan khusus?",
+                "Apa prosedur bagi pemustaka difabel di perpustakaan?",
+                "Bagaimana cara mengakses layanan untuk difabel di perpustakaan?",
+                "Apa yang dilakukan pemustaka difabel saat datang ke perpustakaan?",
+                "Apa yang harus dilakukan pemustaka difabel setelah selesai membaca?",
+                "Pelayanan penyandang disabilitas",
+                "Mekanisme untuk difabel",
+                "Apakah perpustakaan menyediakan toilet untuk penyandang disabilitas",
+                "Bagaimana akses bagi penyandang disabilitas di perpustakaan?",
+                "akses untuk disabilitas",
+                "Mekanisme alur tata cara untuk disabilitas",
+                "Apakah ada biaya untuk layanan difabel?",
+                "Apa produk layanan untuk pemustaka berkebutuhan khusus?",
+                "Apakah pemustaka difabel bisa mengakses aplikasi seperti iRiau?",
+                "Huruf Braille",
+                "Buku Braille",
+                "Biaya layanan disabilitas"
+            ],
+            "responses": [
+                "Layanan untuk pemustaka berkebutuhan khusus (difabel) di Perpustakaan Soeman H.S. sepenuhnya gratis. Berikut adalah prosedur layanan difabel: \n1. Pemustaka datang ke perpustakaan, dan petugas keamanan akan mengarahkan ke ruang difabel. \n2. Petugas akan membantu mengisi buku tamu. \n3. Pemustaka dapat menelusuri koleksi melalui OPAC atau dengan bantuan petugas. \n4. Pemustaka akan didampingi pustakawan menuju rak koleksi. \n5. Setelah selesai membaca, buku ditempatkan di meja yang disediakan.\n\nFasilitas yang tersedia untuk pemustaka difabel antara lain: \n1. Komputer dengan akses jaringan LAN, \n2. Aplikasi Inlislite dan iRiau, \n3. Koleksi buku Braille dan koleksi buku umum."
+            ]
+        },               
+        {
+            "tag": "layanan_ruang_laktasi",
+            "patterns": [
+                "Apa prosedur untuk menggunakan ruang laktasi?",
+                "Bagaimana cara menggunakan fasilitas ruang laktasi?",
+                "Apakah ada syarat untuk menggunakan ruang laktasi?",
+                "Apa yang tersedia di ruang laktasi untuk ibu menyusui?",
+                "Fasilitas apa yang disediakan untuk pengunjung ruang laktasi?",
+                "biaya ruang laktasi",
+                "ruang laktasi berbayar",
+                "waktu durasi ruang laktasi",
+                "apa saja yang ada di ruang laktasi"
+            ],
+            "responses": [
+                "Ruang laktasi di Perpustakaan Soeman H.S. terletak di Gedung B, Lantai 1. Prosedur menggunakan ruang laktasi adalah sebagai berikut: 1. Pengunjung memasuki ruang laktasi; 2. Pengunjung mengisi buku tamu yang tersedia; 3. Pengunjung dapat menggunakan fasilitas ruang laktasi seperti kasur ganti popok, wastafel, sofa untuk menyusui, dan freezer untuk menyimpan ASIP; 4. Setelah selesai, pengunjung dapat meninggalkan ruang laktasi. Fasilitas yang tersedia di ruang laktasi antara lain: 1. Kasur ganti popok, 2. Sofa menyusui, 3. Freezer untuk penyimpanan ASIP, dan 4. Wastafel. Layanan ini tidak dikenakan biaya dan dapat digunakan oleh pengunjung sesuai kebutuhan."
+            ]
+        },        
+        {
+            "tag": "persyaratan_pendaftaran_anggota_perpustakaan",
+            "patterns": [
+                "Apa saja syarat untuk menjadi anggota Perpustakaan Soeman Hs?",
+                "Bagaimana cara mendaftar sebagai anggota perpustakaan?",
+                "Apa yang harus dibawa saat mendaftar?",
+                "Apakah ada biaya untuk menjadi anggota?",
+                "Berapa usia minimal untuk mendaftar?",
+                "persyaratan registrasi",
+                "syarat registrasi",
+                "syarat daftar",
+                "Apakah WNA bisa menjadi anggota perpustakaan?",
+                "Di mana saya bisa mendaftar anggota Perpustakaan Soeman Hs?"
+            ],
+            "responses": [
+                "Untuk mendaftar sebagai anggota Perpustakaan Soeman Hs, Anda harus berusia minimal 5 tahun, merupakan WNI atau WNA, dan menunjukkan tanda pengenal seperti KTP/KIA (WNI) atau Paspor (WNA). Pendaftaran dapat dilakukan langsung di perpustakaan atau klik di sini untuk pendaftaran online. Setelah mendaftar, Anda perlu datang untuk berfoto dan mencetak kartu anggota. Proses ini gratis!"
+            ]
+        },
+        {
+            "tag": "data_kunjungan_perpustakaan",
+            "patterns": [
+                "Di mana saya bisa melihat data kunjungan Perpustakaan Soeman Hs?",
+                "Bagaimana cara mengakses informasi kunjungan di perpustakaan?",
+                "Apakah ada data kunjungan untuk Perpustakaan Soeman Hs?",
+                "Di situs mana saya bisa melihat data kunjungan perpustakaan?"
+            ],
+            "responses": [
+                "Pengunjung dapat mengakses data kunjungan Perpustakaan Soeman Hs melalui situs resmi di [https://dipersip.riau.go.id/data-kunjungan-perpustakaan](https://dipersip.riau.go.id/data-kunjungan-perpustakaan)."
+            ]
+        },
+        {
+            "tag": "tukar_kartu_anggota_perpustakaan",
+            "patterns": [
+                "Bagaimana cara menukarkan kartu anggota?",
+                "Saya ingin menukar kartu pemustaka, apa yang harus saya bawa?",
+                "Apakah kartu pemustaka bisa diganti?",
+                "Kartu anggota saya hilang, apa yang perlu saya lakukan?",
+                "Bolehkah saya menukar kartu pemustaka yang sudah kadaluarsa?",
+                "Apa yang harus dilakukan untuk mendapatkan kartu pemustaka baru?",
+                "Kartu pemustaka saya rusak, bagaimana cara menukarnya?",
+                "Dimana bisa menukar kartu pemustaka yang hilang?",
+                "Kapan saya bisa menukar kartu pemustaka?",
+                "Dimana bisa menukar kartu pemustaka yang rusak?",
+                "Apa yang harus saya lakukan jika kartu anggota perpustakaan hilang?",
+                "Apa yang harus saya lakukan jika kartu anggota perpustakaan rusak",
+                "kartu anggota perpustakaan hilang",
+                "kartu anggota perpustakaan rusak",
+                "pa yang harus saya lakukan jika kartu anggota saya hilang?",
+                "kartu hilang",
+                "Apakah saya bisa menukar kartu pemustaka tanpa kartu lama?"
+            ],
+            "responses": [
+                "Jika Anda masih menggunakan kartu pemustaka yang lama, segera tukarkan dengan yang baru di Perpustakaan Soeman Hs. Cukup datang sesuai jadwal layanan dengan membawa kartu identitas dan kartu pemustaka yang lama. Jika kartu hilang, cukup bawa KTP. Sampaikan tujuan Anda kepada petugas, isi form yang diminta, dan berfoto di tempat yang disediakan."
+            ]
+        },
+        {
+            "tag": "akreditasi_perpustakaan_soeman_hs",
+            "patterns": [
+                "Dimana saya bisa melihat akreditasi perpustakaan?",
+                "Bagaimana cara mengetahui akreditasi Perpustakaan Soeman Hs?",
+                "Apakah ada dokumen tentang akreditasi perpustakaan?",
+                "Di mana bisa mendapatkan informasi akreditasi perpustakaan?",
+                "Perpustakaan Soeman Hs sudah terakreditasi?",
+                "Bagaimana cara melihat SK akreditasi perpustakaan?",
+                "Apa itu akreditasi perpustakaan?",
+                "Dimana bisa mengakses dokumen akreditasi perpustakaan?"
+            ],
+            "responses": [
+                "Anda dapat mengakses informasi akreditasi Perpustakaan Soeman Hs melalui link berikut: [Akreditasi Perpustakaan Soeman Hs](https://dipersip.riau.go.id/wp-content/uploads/2022/03/SK-Tim-Pembinaan-Akreditasi-Perpustakaan-2022.pdf)."
+            ]
+        },
+        {
+            "tag": "pengumuman_dpa",
+            "patterns": [
+                "Di mana saya bisa mencari arsip yang hilang?",
+                "Bagaimana cara mencari arsip yang belum ditemukan?",
+                "Apakah ada daftar pencarian arsip?",
+                "mencari arsip perpustakaan",
+                "cara akses arsip",
+                "Di mana saya bisa melihat daftar pencarian arsip?",
+                "Apa itu DPA?",
+                "Bagaimana cara mengakses daftar pencarian arsip?",
+                "Bisakah saya mencari arsip melalui internet?",
+                "Apakah ada arsip yang bisa saya cari secara online?",
+                "Di mana saya bisa menemukan informasi tentang arsip yang dicari?"
+            ],
+            "responses": [
+                "Anda dapat mengakses **Daftar Pencarian Arsip (DPA)** secara online melalui tautan berikut: [Pengumuman DPA](https://dipersip.riau.go.id/pengumuman)."
+            ]
+        },
+        {
+            "tag": "jadwal_pelayanan_ppid_luring",
+            "patterns": [
+                "Kapan pelayanan PPID Luring?",
+                "Jam buka PPID Luring?",
+                "Pelayanan PPID Luring jam berapa?",
+                "Di mana pelayanan PPID Luring?",
+                "Apa alamat PPID Luring?",
+                "Pelayanan PPID Luring ada di mana?",
+                "Bagaimana cara mengakses PPID Luring?",
+                "Lokasi PPID Luring di mana?",
+                "PPID Luring buka jam berapa?",
+                "Jam operasional PPID Luring?",
+                "Pelayanan PPID di perpustakaan jam berapa?",
+                "Jam layanan PPID Luring?"
+            ],
+            "responses": [
+                "Berikut adalah **Jadwal Pelayanan PPID Luring** Dinas Perpustakaan dan Kearsipan Provinsi Riau:\n\n**Hari**: Senin-Rabu: 08.00-15.30 WIB, Kamis-Jumat: 08.30-16.00 WIB\n\nPelayanan PPID Luring mengikuti operasional pelayanan Perpustakaan Soeman H.S.\n\n**Lokasi**: Meja Informasi Perpustakaan Soeman H.S.\n\nUntuk informasi lebih lanjut, berikut adalah beberapa tautan terkait:\n\n1. **Surat Keputusan PPID**: [SK PPID](https://dipersip.riau.go.id/sk-ppid)\n2. **Daftar Informasi Publik**:\n   - [Informasi Berkala](https://dipersip.riau.go.id/informasi-berkala)\n   - [Informasi Setiap Saat](https://dipersip.riau.go.id/informasi-setiap-saat)\n   - [Informasi Serta Merta](https://dipersip.riau.go.id/informasi-serta-merta)\n   - [Informasi yang Dikecualikan](https://dipersip.riau.go.id/informasi-yang-dikecualikan)\n3. **Daftar Peraturan Terkait**: [Peraturan](https://dipersip.riau.go.id/peraturan)"
+            ]
+        },                
+        {
+            "tag": "maklumat_pelayanan",
+            "patterns": [
+                "Apa itu Maklumat Pelayanan Perpustakaan Soeman H.S.?",
+                "Apa saja komitmen pelayanan Perpustakaan Soeman H.S.?",
+                "Bagaimana pelayanan di Perpustakaan Soeman H.S.?",
+                "isi makluman pelayanan"
+            ],
+            "responses": [
+                "MAKLUMAT PELAYANAN PERPUSTAKAAN SOEMAN HS\n\nDengan ini kami menyatakan sanggup:\n\n1. Menyelenggarakan pelayanan sesuai standar yang telah ditetapkan oleh Dinas Perpustakaan dan Kearsipan Provinsi Riau\n2. Bersikap ramah dan sopan dalam memberikan pelayanan\n3. Melayani dengan penuh tanggung jawab, jujur, dan profesional\n4. Menanggapi segala keluhan dan ketidakpuasan terhadap layanan yang diberikan\n5. Tidak menerima gratifikasi dalam bentuk apapun\n6. Melakukan perbaikan berkelanjutan dalam memberikan pelayanan\n\nApabila tidak menepati janji ini, kami siap menerima sanksi sesuai dengan peraturan perundang-undangan yang berlaku."
+            ]
+        },
+        {
+            "tag": "hibah_donasi",
+            "patterns": [
+                "Bagaimana cara mendonasikan buku?",
+                "Di mana saya bisa memberikan hibah atau donasi?",
+                "Saya ingin memberi hibah/donasi, ke mana saya harus pergi?",
+                "Bagaimana cara saya menyumbangkan buku?",
+                "bagaimana jika saya ingin donasi buku",
+                "Di bagian mana saya bisa melakukan donasi?",
+                "Ke siapa saya harus menghubungi untuk hibah buku?",
+                "Apa prosedur donasi buku di perpustakaan?",
+                "Siapa yang harus dihubungi untuk donasi buku?",
+                "Apa syarat untuk melakukan hibah buku?"
+            ],
+            "responses": [
+                "Jika Anda ingin memberikan **hibah** atau **donasi** di Dinas Perpustakaan dan Kearsipan Provinsi Riau, Anda dapat langsung menghubungi atau menemui bagian umum.\n\n**Lokasi**: Anda bisa mengunjungi **Meja Informasi** di Gedung Perpustakaan Soeman H.S. untuk mendapatkan bantuan lebih lanjut.\n\nPastikan Anda membawa buku atau bahan yang ingin Anda donasikan dan tanyakan prosedur lebih lanjut kepada petugas yang tersedia.\n\nJika Anda memerlukan informasi lebih lanjut mengenai prosedur atau persyaratan hibah/donasi, Anda bisa menghubungi kontak berikut:\n- **Telepon/Fax**: (0761) 34068 (Gedung Perpustakaan) atau (0761) 26613 (Gedung Arsip)\n- **Email**: dipersip@riau.go.id\n\nKami akan dengan senang hati menerima donasi Anda dan memberikan informasi lebih lanjut mengenai prosedur yang berlaku."
+            ]
+        }
+        
+              
+]
+} 

@@ -1,0 +1,193 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #000000;
+}
+
+.container {
+    display: flex;
+    width: 90%;
+    max-width: 1200px;
+    min-width: 900px;
+    /* Menjaga lebar tetap */
+    height: 550px;
+    /* Tinggi tetap agar tidak berubah */
+    background: #0e1117;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    flex-shrink: 0;
+    overflow: hidden;
+
+    .sidebar {
+        width: 30%;
+        padding: 20px;
+        background: #262730;
+        color: #ffffff;
+        border-radius: 10px;
+        text-align: center;
+
+    }
+
+    .sidebar h2 {
+        font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
+        font-size: 40px;
+        font-weight: bold;
+        margin-bottom: 3px;
+    }
+
+    .sidebar h3 {
+        font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
+        font-size: 34px;
+        font-weight: bold;
+        margin-top: 3px;
+    }
+
+    .sidebar h4 {
+        font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
+        font-size: 12px;
+        font-weight: bold;
+    }
+
+    .sidebar p {
+        font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
+        font-size: 15px;
+        /* Ukuran font untuk paragraf */
+    }
+
+    .mascot {
+        width: 250px;
+        margin-top: 30px;
+    }
+
+    .chat-container {
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        padding-left: 20px;
+    }
+
+    .chat-box {
+        height: 450px;
+        /* Meningkatkan tinggi */
+        overflow-y: auto;
+        padding: 10px;
+        background-color: #262730;
+        border-radius: 10px;
+        flex-grow: 1;
+        scrollbar-width: thin;
+        /* Untuk Firefox */
+        scrollbar-color: rgba(159, 159, 159, 0.5) transparent;
+    }
+
+    /* Pesan Bot (di kiri, tanpa bubble) */
+    .chat-message.bot {
+        display: flex;
+        align-items: flex-start;
+        margin: 15px 0;
+    }
+
+    .chat-message.bot img {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        margin-left: 10px;
+        object-fit: cover;
+        display: block;
+    }
+
+    .chat-message.bot .chat-bubble {
+        background-color: #5e5f68;
+        color: #ffffff;
+        padding: 12px;
+        margin-left: 10px;
+        border-radius: 8px;
+        max-width: 70%;
+        font-size: 15px;
+        line-height: 1.8;
+        font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
+    }
+
+    /* Pesan User (di kanan, berbentuk bubble chat) */
+    .chat-message.user {
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+        margin: 15px 0;
+    }
+
+    .chat-message.user img {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        margin-right: 10px;
+        object-fit: cover;
+        display: block;
+    }
+
+    .chat-message.user .chat-bubble {
+        background-color: #5e5f68;
+        color: #ffffff;
+        padding: 12px;
+        margin-right: 10px;
+        border-radius: 8px;
+        max-width: 70%;
+        font-size: 15px;
+        line-height: 1.8;
+        font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
+    }
+
+    .chat-bubble a {
+        color: white;
+        /* Mengubah warna teks menjadi putih */
+        font-weight: bold;
+        /* Membuat teks tebal */
+        text-decoration: none;
+        /* Menghilangkan garis bawah pada link */
+    }
+
+    .chat-bubble a:hover {
+        text-decoration: underline;
+        /* Menambahkan garis bawah saat hover */
+    }
+
+    /* Input box */
+    .input-container {
+        display: flex;
+        padding-top: 15px;
+        /* Menurunkan posisi input */
+    }
+
+    input {
+        flex: 1;
+        padding: 12px;
+        background-color: #5e5f68;
+        color: #ffffff;
+        border: 1px solid #8a8aaa;
+        border-radius: 5px;
+    }
+
+    #user-input::placeholder {
+        color: #ffffff;
+        /* Ganti dengan warna yang diinginkan */
+    }
+
+    button {
+        padding: 5px 15px;
+        border: none;
+        background-color: #4bc053;
+        cursor: pointer;
+        border-radius: 5px;
+        margin-left: 10px;
+    }
+
+    .send-icon {
+        width: 24px;
+        /* Atur ukuran ikon */
+        height: 24px;
+    }
+
+}
